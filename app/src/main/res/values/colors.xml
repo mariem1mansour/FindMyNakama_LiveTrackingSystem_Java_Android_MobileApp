@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs de base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Couleurs primaires (utilisées dans le thème Material) -->
+    <color name="purple_700">#6200EE</color>           <!-- colorPrimary -->
+    <color name="purple_900">#3700B3</color>           <!-- colorPrimaryVariant -->
+    <color name="white_on_primary">#FFFFFFFF</color>   <!-- colorOnPrimary -->
+
+    <!-- Couleurs secondaires -->
+    <color name="teal_700">#03DAC6</color>             <!-- colorSecondary -->
+    <color name="teal_900">#018786</color>             <!-- colorSecondaryVariant -->
+    <color name="black_on_secondary">#FF000000</color> <!-- colorOnSecondary -->
+
+    <!-- Couleurs génériques pour fonds et texte -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_background">#000000</color>
+    <color name="on_surface">#000000</color>
+    <color name="error">#B00020</color>
+    <color name="on_error">#FFFFFF</color>
+
+    <!-- Anciens noms (optionnel, pour compatibilité) -->
+    <!-- Tu peux supprimer ces lignes si tu n'en as pas besoin ailleurs -->
+    <color name="colorPrimary">@color/purple_700</color>
+    <color name="colorPrimaryVariant">@color/purple_900</color>
+    <color name="colorOnPrimary">@color/white_on_primary</color>
+    <color name="colorSecondary">@color/teal_700</color>
+    <color name="colorSecondaryVariant">@color/teal_900</color>
+    <color name="colorOnSecondary">@color/black_on_secondary</color>
+</resources>

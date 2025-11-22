@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">FindMyNakama</string>
+
+
+        <!-- ÉCRAN DE CONNEXION -->
+        <string name="login_title">FindMyFriends</string>
+        <string name="login_subtitle">Localisez vos amis en temps réel</string>
+        <string name="email_hint">Email</string>
+        <string name="password_hint">Mot de passe</string>
+        <string name="login_button">Se connecter</string>
+        <string name="no_account">Pas encore de compte ? S\'inscrire</string>
+
+        <!-- ÉCRAN D'INSCRIPTION -->
+        <string name="register_title">Créer un compte</string>
+        <string name="name_hint">Nom complet</string>
+        <string name="confirm_password_hint">Confirmer le mot de passe</string>
+        <string name="register_button">S\'inscrire</string>
+
+        <!-- ÉCRAN PRINCIPAL -->
+        <string name="add_friend">Ajouter un ami</string>
+        <string name="toggle_location">Partager ma position</string>
+        <string name="my_location">Moi</string>
+
+        <!-- MENU -->
+        <string name="menu_friends_list">Mes amis</string>
+        <string name="menu_logout">Déconnexion</string>
+
+        <!-- AJOUTER UN AMI -->
+        <string name="add_friend_title">Ajouter un ami</string>
+        <string name="add_friend_description">Entrez l\'adresse email de votre ami pour l\'ajouter à votre liste</string>
+        <string name="friend_email_hint">Email de votre ami</string>
+        <string name="add_button">Ajouter</string>
+
+        <!-- LISTE DES AMIS -->
+        <string name="friends_list_title">Mes amis</string>
+        <string name="no_friends">Vous n\'avez pas encore d\'amis.\nAjoutez-en en appuyant sur le bouton +</string>
+        <string name="delete_friend">Supprimer</string>
+
+        <!-- MESSAGES -->
+        <string name="location_sharing_enabled">Partage de localisation activé</string>
+        <string name="location_sharing_disabled">Partage de localisation désactivé</string>
+        <string name="friend_added">%s a été ajouté à vos amis !</string>
+        <string name="friend_removed">Ami supprimé</string>
+        <string name="error">Erreur : %s</string>
+
+        <!-- PERMISSIONS -->
+        <string name="location_permission_denied">Permission de localisation refusée</string>
+        <string name="location_permission_required">Cette application nécessite la permission de localisation pour fonctionner</string>
+
+</resources>

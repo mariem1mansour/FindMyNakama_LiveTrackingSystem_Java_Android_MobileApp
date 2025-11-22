@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LAYOUT DE L'ÉCRAN PRINCIPAL AVEC LA CARTE -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- FRAGMENT DE LA CARTE GOOGLE MAPS -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- BOUTON FLOTTANT POUR AJOUTER UN AMI -->
+    <!-- FAB = Floating Action Button (bouton rond flottant) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="Ajouter un ami"
+        app:srcCompat="@drawable/ic_people"
+        app:backgroundTint="@color/purple_700"
+        app:tint="@color/white" />
+
+    <!-- BOUTON FLOTTANT POUR ACTIVER/DÉSACTIVER LE PARTAGE -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabToggleSharing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="88dp"
+        android:contentDescription="Partager ma position"
+        app:srcCompat="@drawable/ic_location_off"
+        app:backgroundTint="@color/teal_700"
+        app:tint="@color/white" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
