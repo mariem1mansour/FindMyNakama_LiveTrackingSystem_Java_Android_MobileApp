@@ -8,8 +8,6 @@
 
 > **FindMyNakama** (なかま = "friends" in Japanese) is a real-time location tracking Android application that allows you to share your location with friends and see their positions on an interactive map.
 
-![App Banner](https://via.placeholder.com/800x200/6200EE/FFFFFF?text=FindMyNakama+-+Live+Friend+Tracking)
-
 ---
 
 ## 📋 Table of Contents
@@ -389,19 +387,19 @@ View your list of connected friends.
 
 ### 6. Share Your Location
 Toggle sharing your live location with selected friends.
-![Share Location](assets/share your location.png)
+![Share Location](assets/share_your_location.png)
 
 ### 7. Stop Sharing Your Location
 Pause location sharing anytime for privacy.
-![Stop Sharing](assets/stop sharing your location.png)
+![Stop Sharing](assets/stop_sharing_your_location.png)
 
 ### 8. View Friend's Location
 See your friend’s live position on the map.
-![Friend's Location](assets/your friend's location.png)
+![Friend's Location](assets/your_friends_location.png)
 
 ### 9. View Your Own Location
 Check where you are on the map.
-![Your Location](assets/your location.png)
+![Your Location](assets/your_location.png)
 
 ---
 
